@@ -18,7 +18,7 @@ metadata:
   name: api-deployment
   namespace: rendu
 spec:
-  replicas: 3
+  replicas: 4
   selector:
     matchLabels:
       app: api
